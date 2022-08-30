@@ -7,7 +7,21 @@
     <title>DC Comics strike Again</title>
 </head>
 <body>
-    <header>qui header che diramerà i link</header>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="{{ route('home') }}">Home</a>
+                </li>
+                <li>
+                    <a href="{{ route('comics.index') }}">Products</a>
+                </li>
+                <li>
+                    <a href="{{ route('comics.create') }}">Suggerisci prodotto</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
 
     <main>
         @yield('main_content')

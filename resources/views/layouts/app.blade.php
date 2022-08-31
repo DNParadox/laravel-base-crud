@@ -19,6 +19,7 @@
                 <li>
                     <a href="{{ route('comics.create') }}">Suggerisci prodotto</a>
                 </li>
+           
             </ul>
         </nav>
     </header>
